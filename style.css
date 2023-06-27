@@ -357,6 +357,9 @@ a{
     .footer-faded-text{
         font-size: 3em;
     }
+    .hero-section-left{
+        padding-left: 70px;
+    }
 
 
 @media(max-width:450px){
@@ -374,6 +377,9 @@ a{
 
     .footer-faded-text{
         font-size: 3em;
+    }
+    .hero-section-left{
+        padding-left: 70px;
     }
 }
 }
