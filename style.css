@@ -318,7 +318,7 @@ a{
     }
 }
 
-@media (max-width:1300px) {
+@media (max-width:700px) {
     .user-image{
         padding:1rem
     }
@@ -334,7 +334,7 @@ a{
     }  
     
     .faded-text{
-        font-size: 5em;
+        font-size: 3em;
     }
 
     .skill-heading{
@@ -347,12 +347,35 @@ a{
     }
 
     .skill-container-right{
-        flex-direction: column;
         width:90%;
     }
 
+    .skills-container{
+        flex-direction: column;
+    }
+    
+    .footer-faded-text{
+        font-size: 3em;
+    }
 
 
+@media(max-width:450px){
+    .hero-section{
+        gap: 0em;
+    }
+
+    .skill-container-right{
+        gap: 1em;
+        width: 32%;
+    }
+    .skills-container{
+        padding: 0em;
+    }
+
+    .footer-faded-text{
+        font-size: 3em;
+    }
+}
 }
 /* --------- Hero Section Ends -------- */
 
