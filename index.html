@@ -1,365 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website - Siddharth Jiyani</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadoo Travels</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/854/854929.png">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div class="first">
+        <div class="bg">
+            <img src="hero-background.png" alt="">
+        </div>
+    <!-- Navbar -->
         <div class="navbar">
-          <div class="logo-container">
-            <img src="S.png" class="logo" />
-            <div class="logo-text">iddharth Jiyani</div>
-          </div>
-
-          <div class="nav-items">
-            <div><a href="#projects">Project</a></div>
-            <div><a href="#skills">Skills</a></div>
-            <div><a href="#contact">Contact Me</a></div>
-          </div>
+            <div class="nav-logo">
+                <a href="#"><img src="Logo.png" alt=""></a>
+            </div>
+            <ul class="nav-list">
+                <li class="list-items"><a href="#DESTINATIONS-SCROLL">Destinations</a></li>
+                <li class="list-items">Hotels</li>
+                <li class="list-items"><a href="#Airlines">Flights</a></li>
+                <li class="list-items"><a href="#booktrip">Bookings</a></li>
+                <!-- <li class="list-items">Bookings</li> -->
+                <li class="list-items">Login</li>
+            </ul>
+            <button class="nav-btn">Sign up</button>
+            <select class="nav-select" id="">
+                <option value="0">EN</option>
+                <option value="1">HIN</option>
+                <option value="2">GUJ</option>
+            </select>
         </div>
-      </div>
+    
 
-      <div class="hero-section">
-        <div class="faded-text">Siddharth Jiyani</div>
-        <div class="hero-section-left">
-          <div class="hero-section-heading">Hi! Siddharth Jiyani</div>
-
-          <div class="hero-section-heading hero-section-subheading">
-            I am a <span class="role"></span>
-          </div>
-
-          <div class="hero-section-desc">
-            I’m a software developer and here is my portfolio website. Here
-            you’ll learn about my journey as a software developer.
-          </div>
-
-          <div class="btn" id="btn">Hire me</div>
+    <!-- Hero-Section -->
+        <div class="hero-section">
+            <!-- left section -->
+            <div class="left">
+                <p class="tagline">Best Destinations around the world</p>
+                <h1 class="hero-heading">Travel, enjoy and live a new
+                    and full life</h1>
+                <img src="orange-stroke.png" alt="" class="orange-stroke">
+                <p class="hero-desc">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                
+                <!-- btn and hyperlink -->
+                <div class="end-part">
+                    <button class="hero-btn">Find out more</button>
+                    <div class="img">
+                        <img src="Play button.png" class="play-btn" >
+                    </div>
+                    <p class="text-1">Play Demo</p>
+                </div>
+            </div>
+            <img src="traveller.png" class="traveller">
+            <img src="leg-dots.png" class="dots">
+            
         </div>
-
-        <div class="hero-section-right">
-          <div class="absolute icons icon-dots">
-            <img src="dots.png" alt="" />
-          </div>
-          <div class="absolute icons icon-cube">
-            <img src="cube.png" alt="" />
-          </div>
-          <div class="absolute icons icon-circle">
-            <img src="circle.png" alt="" />
-          </div>
-          <div class="absolute icons icon-zigzag">
-            <img src="zigzags.png" alt="" />
-          </div>
-          <div class="absolute icons icon-plus">
-            <img src="plus.png" alt="" />
-          </div>
-          <div class="user-image">
-            <img src="UserImage2.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div class="project-section" id="projects">
-        <h2 class="page-header">Projects</h2>
-        <div class="project-container">
-          <div class="project-card " id="project1">
-            <div class="project-number project-number-right">01</div>
-            <div class="project-content project-content-left">
-							<div class="project-skills-container">
-								<img class="project-skill" src="HTML.png" alt="" />
-								<img class="project-skill" src="CSS.png" alt="" />
-								<img class="project-skill" src="Javascript.svg" alt="" />
-								<img class="project-skill" src="Express.png" alt="" />
-								<img class="project-skill" src="NextJsCircle.png" alt="" />
-								<img class="project-skill" src="Tailwind.png" alt="" />
-								<img class="project-skill" src="NodeJs.svg" alt="" />
-								<img class="project-skill" src="MongoDB.svg" alt="" />
-								<img class="project-skill" src="Redux.svg" alt="" />
-								<img class="project-skill" src="Vercel.svg" alt="" />
-							</div>
-							<h2 class="project-heading">Tint & Orange</h2>
-
-							<p class="project-subHeading">Its is a car modification copany 
-								which provide you sheets to protect your car from scratch
-							</p>
-
-							<div class="btn-grp">
-								<div class="btn btn-project">Read More</div>
-
-								<a href="">
-									<i title="GitHubLink" class="fa-brands fa-github icon"></i>
-									</a>
-									<a href="">
-									<i title="Live Link" class="fa-solid fa-link icon"></i>
-									</a>
-							</div>
+        
+    </div>
+    
+    <!-- feature section -->
+    <div class="feature-text">
+        <p class="text-1 text-2">CATEGORY</p>
+        <p class="text3">We Offer Best Services</p>
+    </div>
+    <div class="features">
+        <div class="box">
+            <div>
+                <img src="Group1.png" class="feature-img">
             </div>
-          </div>
-
-
-          <div class="project-card" id="project2">
-            <div class="project-number project-number-left">02</div>
-            <div class="project-content project-content-right">
-							<div class="project-skills-container">
-								<img class="project-skill" src="HTML.png" alt="" />
-								<img class="project-skill" src="CSS.png" alt="" />
-								<img class="project-skill" src="Javascript.svg" alt="" />
-								<img class="project-skill" src="Express.png" alt="" />
-								<img class="project-skill" src="NextJsCircle.png" alt="" />
-								<img class="project-skill" src="Tailwind.png" alt="" />
-								<img class="project-skill" src="NodeJs.svg" alt="" />
-								<img class="project-skill" src="MongoDB.svg" alt="" />
-								<img class="project-skill" src="Redux.svg" alt="" />
-								<img class="project-skill" src="Vercel.svg" alt="" />
-							</div>
-							<h2 class="project-heading">Breaking Copyrights</h2>
-
-							<p class="project-subHeading">A platform to download copyrights free youtube music
-							</p>
-
-							<div class="btn-grp">
-								<div class="btn btn-project">Read More</div>
-
-								<a href="">
-									<i title="GitHubLink" class="fa-brands fa-github icon"></i>
-									</a>
-									<a href="">
-									<i title="Live Link" class="fa-solid fa-link icon"></i>
-									</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="project-card" id="project3">
-            <div class="project-number project-number-right">03</div>
-            <div class="project-content project-content-left">
-							<div class="project-skills-container">
-								<img class="project-skill" src="HTML.png" alt="" />
-								<img class="project-skill" src="CSS.png" alt="" />
-								<img class="project-skill" src="Javascript.svg" alt="" />
-								<img class="project-skill" src="Express.png" alt="" />
-								<img class="project-skill" src="NextJsCircle.png" alt="" />
-								<img class="project-skill" src="Tailwind.png" alt="" />
-								<img class="project-skill" src="NodeJs.svg" alt="" />
-								<img class="project-skill" src="MongoDB.svg" alt="" />
-								<img class="project-skill" src="Redux.svg" alt="" />
-								<img class="project-skill" src="Vercel.svg" alt="" />
-							</div>
-							<h2 class="project-heading">Isha Tattva</h2>
-
-							<p class="project-subHeading">A Website for interior designer to showcase her works and samples
-							</p>
-
-							<div class="btn-grp">
-								<div class="btn btn-project">Read More</div>
-
-								<a href="">
-									<i title="GitHubLink" class="fa-brands fa-github icon"></i>
-									</a>
-									<a href="">
-									<i title="Live Link" class="fa-solid fa-link icon"></i>
-									</a>
-							</div>
-            </div>
-          </div>
-
-
-          <div class="project-card" id="project4">
-            <div class="project-number project-number-left">04</div>
-            <div class="project-content project-content-right">
-							<div class="project-skills-container">
-								<img class="project-skill" src="HTML.png" alt="" />
-								<img class="project-skill" src="CSS.png" alt="" />
-								<img class="project-skill" src="Javascript.svg" alt="" />
-								<img class="project-skill" src="Express.png" alt="" />
-								<img class="project-skill" src="NextJsCircle.png" alt="" />
-								<img class="project-skill" src="Tailwind.png" alt="" />
-								<img class="project-skill" src="NodeJs.svg" alt="" />
-								<img class="project-skill" src="MongoDB.svg" alt="" />
-								<img class="project-skill" src="Redux.svg" alt="" />
-								<img class="project-skill" src="Vercel.svg" alt="" />
-							</div>
-							<h2 class="project-heading">Granit</h2>
-
-							<p class="project-subHeading">A architectural website to plan your building or home (Hebrew Language)
-							</p>
-
-							<div class="btn-grp ">
-								<div class="btn btn-project">Read More</div>
-
-								<a href="">
-									<i title="GitHubLink" class="fa-brands fa-github icon"></i>
-									</a>
-									<a href="">
-									<i title="Live Link" class="fa-solid fa-link icon"></i>
-									</a>
-							</div>
-            </div>
+            <h3 class="feature-heading">Calcuated Weather</h3>
+            <p class="feature-content">Built Wicket longer admire do barton vanity itself do in it.</p>
 
         </div>
-      </div>
-      </div>
+        <div class="box">
+            <div>
+                <img src="Group2.png" class="feature-img">
+            </div>
+            <h3 class="feature-heading">Best Flights</h3>
+            <p class="feature-content">Engrossed listening. Park gate sell they west hard for the.</p>
 
-      <div class="container skills-container" id="skills">
+        </div>
+        <div class="box">
+            <div>
+                <img src="Group3.png" class="feature-img">
+            </div>
+            <h3 class="feature-heading">Local Events</h3>
+            <p class="feature-content"> Barton vanity itself do in it. Prefferd to men it engrossed listening.</p>
 
-        <div class="skill-faded-text">Skills</div>
+        </div>
+        <div class="box">
+            <div>
+                <img src="Group4.png" class="feature-img">
+            </div>
+            <h3 class="feature-heading">Customization</h3>
+            <p class="feature-content"> We deliver outsourced aviation services for military customers.</p>
 
-          <div class="skill-container-left">
-            <h2 class="skill-heading">
+        </div>
+    </div>
 
-              <span class="caps">M</span>e and <br> MyTech Stack
 
-            </h2>
+    <div class="space"></div>
 
-              <div class="skill-subheading">
-                <p>
-                  Hi Everyone My name is Jonh Doe Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur quae suscipit cum, vero ipsa quod tempore architecto voluptatem quam.
+    <div class="feature-text" id="DESTINATIONS-SCROLL">
+        <p class="text-1 text-2">Top Selling</p>
+        <p class="text3">Top Destinations</p>
+    </div>
+
+    <div class="destine-cards">
+        <div class="card">
+            <div class="card-img">
+                <img src="Destination1.png" class="image" >
+            </div>
+            <div class="card-text">
+                <div class="location">
+                    <div class="place">
+                        Rome,Italy
+                    </div>
+                    <div class="price">
+                        $5.42k
+                    </div>
+                </div>
+                <div class="duration">
+                    <img src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617f2285a3530e1aba05620c_location-mark.svg" class="arrow">
+                    10 Days Trip
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="Destination2.jpg" class="image" >
+            </div>
+            <div class="card-text">
+                <div class="location">
+                    <div class="place">
+                        London,UK
+                    </div>
+                    <div class="price">
+                        $4200
+                    </div>
+                </div>
+                <div class="duration">
+                    <img src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617f2285a3530e1aba05620c_location-mark.svg" class="arrow">
+                    12 Days Trip
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="Destination3.png" class="image" >
+            </div>
+            <div class="card-text">
+                <div class="location">
+                    <div class="place">
+                        Full Europe
+                    </div>
+                    <div class="price">
+                        $15k
+                    </div>
+                </div>
+                <div class="duration">
+                    <img src="https://uploads-ssl.webflow.com/6170700f1a1db6b3a0ac16ed/617f2285a3530e1aba05620c_location-mark.svg" class="arrow">
+                    28 Days Trip
+                </div>
+            </div>
+        </div>
+
+        <div class="design">
+            <img src="springs-design.png">
+        </div>
+    </div>
+
+    <!-- Book a trip -->
+    <div class="booktrip" id="booktrip">
+        <div class="left-part">
+            <p class="text-1 text-2" style="font-weight: bold;">Easy and Fast text</p>
+            <h2 class="book-heading">Book your next trip <br>
+                In 3 easy steps</h2>
+            <div class="main-step">
+                <div class="steps">
+                    <div class="icon-image">
+                        <img src="step1.png" >
+                    </div>
+                    <div class="widthmate">
+                        <p class="text-step text-2">Choose Destination</p>
+                        <p class="step-info">Lorem ipsum dolor sit amet consecteturadi, <br>pisicing elit. Sunt, neque</p>
+                    </div>
+                </div>
+                <div class="steps">
+                    <div class="icon-image">
+                        <img src="step2.png" >
+                    </div>
+                    <div class="widthmate">
+                        <p class="text-step text-2">Choose Destination</p>
+                        <p class="step-info">Lorem ipsum dolor sit amet consecteturadi, <br>pisicing elit. Sunt, neque</p>
+                    </div>
+                </div>
+                <div class="steps">
+                    <div class="icon-image">
+                        <img src="step3.png" >
+                    </div>
+                    <div class="widthmate">
+                        <p class="text-step text-2">Choose Destination</p>
+                        <p class="step-info">Lorem ipsum dolor sit amet consecteturadi, <br>pisicing elit. Sunt, neque</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-part">
+            <div>
+                <img src="booktrip.png" class="right-img" >
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+
+        <div class="left-tes">
+            <div class="tes-head">
+                <p class="tes-text step-info">
+                    TESTIMONIALS
                 </p>
-
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque aspernatur, maiores voluptatum minus laudantium? Perspiciatis accusamus minima porro dolores necessitatibus, magni dolorem et qui veniam nulla sequi molestiae maxime.
-                </p>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?
-                </p>
-              </div>
-          </div>
-
-          <div class="skill-container-right">
-              <img src="blob vector.png" class="blob-style" alt="" />
-
-              <img src="HTML.png" alt="" class="skills-logo" />
-              <img src="CSS.png" alt="" class="skills-logo" />
-              <img src="Javascript.svg" alt="" class="skills-logo" />
-              <img src="React.png" alt="" class="skills-logo" />
-              <img src="NodeJs.svg" alt="" class="skills-logo" />
-              <img src="Next.svg" alt="" class="skills-logo" />
-              <img src="Redux.svg" alt="" class="skills-logo" />
-              <img src="Tailwind.png" alt="" class="skills-logo" />
-              <img src="Bootstrap.svg" alt="" class="skills-logo" />
-              <img src="MaterialUI.svg" alt="" class="skills-logo" />
-              <img src="Express.png" alt="" class="skills-logo" />
-              <img src="Git.svg" alt="" class="skills-logo" />
-              <img src="Github.svg" alt="" class="skills-logo" />
-              <img src="Graphql.svg" alt="" class="skills-logo" />
-              <img src="MongoDB.svg" alt="" class="skills-logo" />
-              <img src="Vercel.svg" alt="" class="skills-logo" />
-              <img src="ChartJs.svg" alt="" class="skills-logo" />
-              <img src="Bash.svg" alt="" class="skills-logo" />
-              <img src="Docker.svg" alt="" class="skills-logo" />
-              <img src="K8s.svg" alt="" class="skills-logo" />
-          </div>
-  
-      </div>
-
-      <div class="contactus-form-container" id="contactme">
-        <div class="container">
-
-          <h1 class="contactus-heading">Contact me</h1>
-
-          <h3 class="contactus-sub-heading">
-            Questions, thoughts, or just want to say hello?
-          </h3>
-
-
-          <div class="contactus-form-container">
-            <form class="form" action="">
-              <div class="formfield-container">
-                <input class="formfield" 
-                type="text" 
-                name="name" 
-                id="" 
-                placeholder="Enter your name" />
-
-                <input class="formfield" 
-                type="email" 
-                name="email" 
-                id="" 
-                placeholder="Enter your email address" />
-
-                <input class="formfield" 
-                type="text" 
-                name="subject" 
-                id="" 
-                placeholder="Enter your subject" />
-
-                <textarea name="message" 
-                id="" cols="30" rows="10" 
-                class="formfield formfield-textarea"
-                placeholder="Enter your message"></textarea>
-
-              </div>
-              
-              <div>
-                <button type="submit" class="btn" id="submit-btn">
-                  Send Message  <i class="submit-icon fa-solid fa-paper-plane"></i>
-                </button>
-              </div>
-
-            </form>
-
-          </div>
-
-
+                What People Say About Us.
+            </div>
+            <div class="three-dots">
+                <img src="3-dots.png" alt="">
+            </div>
         </div>
-      </div>
 
-      <footer>
-        <div class="container">
-          <div class="footer-wrapper">
-            <div class="footer-faded-text faded-text">Siddharth Jiyani</div>
+        <div class="right-tes">
+            <div class="pic">
+                <img src="man-in-red.png" class="man">
+            </div>
+            <div class="right-tes-content">
+                <div class="statement step-info">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</div>
+                <div class="name location">Mike taylor</div>
+                <div class="visited">Lahore,Pakistan</div>
+            </div>
+            <div class="slider">
+                <img src="Pagination.png" alt="">
+            </div>
+        </div>
 
-            <div class="link-wrapper">
-              <div>
-                <a href="#projects">Projects</a>
-              </div>
-              <div>
-                <a href="#skills">Skills</a>
-              </div>
-              <div>
-                <a href="#contactme">Contact Me</a>
-              </div>
+    </div>
+
+    <div class="logos" id="Airlines">
+        <a href="http://www.axonaviation.com/" target="_blank" class="logo-img"><img src="1.png" ></a>
+        <a href="https://www.jetstar.com/au/en/home?tab=1" target="_blank" class="logo-img logo-img-2"><img src="2.png" ></a>
+        <a href="https://www.expedia.co.in/" target="_blank" class="logo-img"><img src="3.png" ></a>
+        <a href="https://www.qantas.com/in/en.html" target="_blank" class="logo-img logo-img-4"><img src="4.png" ></a>
+        <img src="5.png" class="logo-img logo-img-5">
+    </div>
+
+    <div class="contact" style="width: 100%;">
+        <div class="background">
+            <h1 class="text">Subscribe to get information,<br> latest news and other
+                interesting <br> offers about Cobham
+            </h1>
+
+            <div class="contact-me">
+                <form action="#" class="form">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" class="email" placeholder="Your Email">
+                    
+                </form>
+                <button class="subs">Subscribe</button>
             </div>
 
-            <div class="icon-wrapper">
-              <i class="fa-brands fa-linkedin icon"></i>
-              <i class="fa-brands fa-github icon"></i>
-              <i class="fa-brands fa-twitter icon"></i>
-              <i class="fa-brands fa-instagram icon"></i>
-              <i class="fa-regular fa-envelope icon"></i>
-            </div>
-
-          </div>
+                <div class="circles-left">
+                    <img src="rings-left.png" alt="">
+                </div>
+                <div class="circles-right">
+                    <img src="rings-right.png" alt="">
+                </div>
         </div>
-      </footer>
-    </div> 
+
+    </div>
+
+    <footer>
+        <div class="last">
+            <div class="box-1">
+                <p class="brand-name">Jadoo.</p>
+                <p class="below-brand">Book your trip in minute, get full<br>Control for much longer.</p>
+            </div>
+            <div class="box-2">
+                <div class="footer-subheading">
+                    Company
+                </div>
+                <ul class="footer-list">
+                    <li>About</li>
+                    <li>Career</li>
+                    <li>Mobile</li>
+                </ul>
+            </div>
+            <div class="box-3">
+                <div class="footer-subheading">
+                    Contact
+                </div>
+                <ul class="footer-list">
+                    <li>Help/ FAQ</li>
+                    <li>Press</li>
+                    <li>Affilities</li>
+                </ul>
+            </div>
+            <div class="box-4">
+                <div class="footer-subheading">
+                    More
+                </div>
+                <ul class="footer-list">
+                    <li>Airlines fees</li>
+                    <li>Airlien</li>
+                    <li>Low fare tips</li>
+                </ul>
+            </div>
+            <div class="box-5">
+                <div class="social">
+                    <img src="Social.svg" alt=""  style="cursor: pointer;">
+                    <img src="Social (1).png" alt="" style="cursor: pointer;">
+                    <img src="Social (2).svg" alt="" style="cursor: pointer;">
+                </div>
+                <div class="footer-list">Discover our app</div>
+                <div class="app">
+                    <a href="https://play.google.com/store/apps" target="_blank"><img src="Google Play.svg" alt=""></a>
+                    <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="App Store.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <p class="rights">All rights reserved@jadoo.co</p>
+
+    <p class="me">Made by Siddharth Jiyani (22ucs211) </p>
+
+</div>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script
-      src="https://kit.fontawesome.com/58a810656e.js"
-      crossorigin="anonymous"></script>
-    <script>
-      var typeData = new Typed(".role", {
-        strings: [
-          "Full Stack Developer",
-          "Web Developer",
-          "UI-UX Designer",
-          "Backend Developer",
-          "Competitive Programmer",
-          "Coder",
-        ],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 1000,
-      });
-    </script>
-  </body>
+</body>
 </html>
